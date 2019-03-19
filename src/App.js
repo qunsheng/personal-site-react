@@ -1,26 +1,40 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import qunsheng from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+      <React.Fragment>
+        <header id="showcase" className="grid">
+          <div className="bg-image"></div>
+          <div class="content-wrap">
+            <ul>
+              <li>
+                <div className="card">
+                  <img width="500" src={require('./images/qunsheng.jpeg')} />
+
+                </div>
+
+              </li>
+              <li>
+                <h1> Quentin Chen</h1>
+                <p>Over 20 years IT experience. Former heart and soul of NASDAQ biggest trading engine. Original author of many
+                    Wall Street well known applications such as BRASS/BNET. Passionate about JavaScript and web application
+                    development.</p>
+              </li>
+    
+            </ul>
+
+          
+          
+          </div>
+          
         </header>
-      </div>
+        
+
+
+      </React.Fragment>
     );
   }
 }
