@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Personal Website
+This project is an React project to introduce myself.<br>
+
+This project utilized following technical sets: <br>
+
+React<br>
+Highcharts<br>
+CSS Grid/Flex Box<br>
+Responsive Web Page<br>
 
 ## Create project
 
@@ -25,8 +33,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### deploy to netlify
 
