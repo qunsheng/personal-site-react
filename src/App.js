@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import qunsheng from './logo.svg';
+import SkillSet from './components/SkillSet'
 import './App.css';
 
 class App extends Component {
@@ -31,6 +31,8 @@ class App extends Component {
           </div>
           
         </header>
+
+        <SkillSet />
         
 
 
