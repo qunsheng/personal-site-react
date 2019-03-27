@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SkillSet from './components/SkillSet'
 import './App.css';
+import WorkExperience from './components/WorkExperience';
 
 class App extends Component {
   render() {
@@ -33,6 +34,7 @@ class App extends Component {
         </header>
 
         <SkillSet />
+        <WorkExperience />
         
 
 

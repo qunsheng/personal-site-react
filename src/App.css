@@ -58,7 +58,7 @@ p {
   list-style: none;
 }
 
-
+/* 
 .box img {
   width: 100px;
   height: 100px;
@@ -70,6 +70,29 @@ p {
    
   background: #ffffff;
   color: #333333;
+} */
+
+
+
+.portfolio-item {
+  display: flex;
+  align-items: center;
+  border: 3px solid #666666;
+
+  background: #ffffff;
+  color: #333333;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-item img {
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 0;
+  margin: 0;
+
+  width: 100px;
+  height: 100px;
 }
 
 
