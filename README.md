@@ -13,9 +13,14 @@ Responsive Web Page<br>
 
 `yarn create react-app personal-site-react`
 
-## Install d3
+## Install dependencies
 
-`npm install d3`
+`npm install d3`<br />
+`npm install @material-ui/icons` <br/>
+`npm install @material-ui/icons` <br/>
+`npm install react-visibility-sensor`<br/>
+`npm install prop-types`<br/>
+`npm install classnames`
 
 ### run `npm start` to test
 

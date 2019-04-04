@@ -6,7 +6,6 @@ class SkillSet extends Component {
     return (
       <div className="App">
         <h1 className="App-intro">Technical Skills</h1>
-        <br />
         <BubbleChart
           width={800}
           height={800}

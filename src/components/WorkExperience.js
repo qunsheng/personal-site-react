@@ -1,126 +1,129 @@
-import React, {
-    Component
-} from 'react'
+import React, { Component } from "react";
+import VerticalTimeline from "./verticalTimeLine/VerticalTimeline";
+import VerticalTimelineElement from "./verticalTimeLine/VerticalTimelineElement";
+
+import WorkIcon from "@material-ui/icons/Work";
+import StarIcon from "@material-ui/icons/Star";
+import SchoolIcon from "@material-ui/icons/School";
+import "./verticalTimeLine/main.css";
+import "./verticalTimeLine/VerticalTimeline.css";
+import "./verticalTimeLine/VerticalTimelineElement.css";
 
 export default class WorkExperience extends Component {
-    render() {
-        return (
-            <section id="section-b">
-                <h2>Work Experience</h2>
-                <section className="portfolio">
-
-                    <div className="portfolio-item">
-                        <img  src={require('../images/morgan_stanley_building_compressed.jpg')} />
-                        <div>
-                            Morgan Stanley, New York, NY (Contractor) <br />6/2014 – present
-                        </div>
-                    </div>
-                    
-                    <div className="portfolio-item">
-                        <img  src={require('../images/pexels-photo-887751.jpeg')} />
-                        <div>           
-                            Door 3 Business Applications Inc., New York, NY (Contractor)<br />
-                            3/2014 – 6/2014
-                        </div>
-                    </div>
-                    
-                    
-                    <div className="portfolio-item">
-                        <img  src={require('../images/dsny.jpg')} />
-                        <div>
-                        Department of Sanitation, New York, NY (Contractor)<br />8/2013 - 1/2014
-                        </div>
-                    </div>
-                    
-                    <div className="portfolio-item">
-                        <img  src={require('../images/BNY.jpg')} />
-                        <div>
-                        Bank of New York Mellon, Jersey City, NJ (Contractor)<br />5/2012 - 7/2013
-                        </div>
-                    </div>
-                    
-                    <div className="portfolio-item">
-                        <img  src={require('../images/brampton.jpg')} />
-                        <div>
-                        Rogers, Brampton, Ontario (Contractor)<br />8/2010-12/2011
-                        </div>
-                    </div>
-                    
-                    <div className="portfolio-item">
-                        <img  src={require('../images/pexels-photo-955447.jpeg')} />
-                        <div>
-                        AMDOCS, Toronto, Ontario (Contractor)<br /> 11/2009-8/2010
-                        </div>
-                    </div>
-                    
-                    
-                    <div className="portfolio-item">
-                        <img  src={require('../images/cibc.jpg')} />
-                        <div>
-                        CIBC World Market, Toronto, Ontario (Employee)<br />12/2008-5/2009
-                        </div>
-                    </div>
-                    
-                    <div className="portfolio-item">
-                        <img  src={require('../images/goldman.jpg')} />
-                        <div>
-                        Goldman Sachs, New York, NY (Contractor)<br /> 11/2007-10/2008
-                        </div>
-                    </div>
-                    
-                    <div className="portfolio-item">
-                        <img  src={require('../images/citi.jpg')} />
-                        <div>
-                        Citigroup Corporate & Investment Bank, New York, NY (Contractor) <br />06/2005-09/2007
-                        </div>
-                    </div>
-                    
-                    <div className="portfolio-item">
-                        <img  src={require('../images/4wfc.jpg')} />
-                        <div>
-                        Merrill Lynch, New York, NY (Contractor) <br />07/2004-05/2005
-                        </div>
-                    </div>
-                    
-                    
-                    <div className="portfolio-item">
-                        <img  src={require('../images/RBC.jpg')} />
-                        <div>
-                        RBC Capital Markets, Toronto, Ontario (Employee) <br />05/2001-04/2004
-                        </div>
-                    </div>
-                    
-                    <div className="portfolio-item">
-                        <img  src={require('../images/laptop-mobile.jpg')} />
-                        <div>
-                        Nubase Technologies Inc., Toronto, Ontario (Employee) <br />01/2001-04/2001
-                        </div>
-                    </div>
-
-                    
-                    <div className="portfolio-item">
-                        <img  src={require('../images/toronto.jpg')} />
-                        <div>
-                        Blockade System Corporation, Toronto, Ontario (Employee) <br />08/1999-12/2000
-                        </div>
-                    </div>
-                    
-                    
-                    <div className="portfolio-item">
-                        <img  src={require('../images/knight.jpg')} />
-                        <div>
-                        Knight Securities Inc., Jersey City, NJ (Employee) <br />02/1996-07/1999
-                        </div>
-                    </div>
-                    
-                    <div className="portfolio-item">
-                        <img  src={require('../images/brass.jpg')} />
-                        <div>
-                        Automated Securities Clearance Ltd., Weehawken, NJ (Employee) <br />12/1992-01/1996
-                        </div>
-                    </div>
-                </section>
-            </section>
-        )
-    }
+  render() {
+    return (
+      <section id="section-b">
+        <h1 className="App-intro">Work Experience</h1>
+        <VerticalTimeline>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="6/2014 – present"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Front End Developer, 6/2014 – present
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Morgan Stanley, New York, NY (Contractor)
+            </h4>
+            <p>
+              Implemented Angular2+/Restful web application from both server and
+              client side.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="3/2014 – 6/201"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Architect/Front End Developer, 3/2014 – 6/201
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Door 3 Business Applications Inc., New York, NY (Contractor)
+            </h4>
+            <p>
+              Implemented Aether Store Dashboard Application client side using
+              AngularJS and Restful API.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="8/2013 - 1/2014"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Consultant, 8/2013 - 1/2014
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Department of Sanitation, New York, NY (Contractor)
+            </h4>
+            <p>System improvement analysis, System security risk analysis</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="5/2012 - 7/2013"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Front End Developer, 5/2012 - 7/2013
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Bank of New York Mellon, Jersey City, NJ (Contractor)
+            </h4>
+            <p>
+              JavaScript and CSS code upgrade latest version and firm standard
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="1995"
+            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            icon={<SchoolIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Certificate of Brokerage Operations
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              New York Institute of Finance, New York, 1995
+            </h4>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="November 2012"
+            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            icon={<SchoolIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              M.E. Mechanical Engineering
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Florida Atlantic University, Boca Raton, FL, 1992
+            </h4>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="2002 - 2006"
+            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+            icon={<SchoolIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Masters of Production Engineering
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Dalian Railway University, Dalian, China, 1988
+            </h4>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+            icon={<StarIcon />}
+          />
+        </VerticalTimeline>
+      </section>
+    );
+  }
 }
