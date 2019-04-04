@@ -5,7 +5,7 @@ This project is an React project to introduce myself.<br>
 This project utilized following technical sets: <br>
 
 React<br>
-Highcharts<br>
+D3<br>
 CSS Grid/Flex Box<br>
 Responsive Web Page<br>
 
