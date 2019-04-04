@@ -1,4 +1,5 @@
 # Personal Website
+
 This project is an React project to introduce myself.<br>
 
 This project utilized following technical sets: <br>
@@ -12,10 +13,9 @@ Responsive Web Page<br>
 
 `yarn create react-app personal-site-react`
 
-## Install Highcharts for React
-`npm install highcharts`<br>
-`npm install highcharts-react-official`
+## Install d3
 
+`npm install d3`
 
 ### run `npm start` to test
 
@@ -24,7 +24,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
-
 
 ### `npm run build` or `yarn run build` to build production
 
