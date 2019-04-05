@@ -13,7 +13,11 @@ export default class WorkExperience extends Component {
   render() {
     return (
       <section id="section-b">
-        <h1 className="App-intro">Work Experience</h1>
+        <div className="heading">
+          <h2>Work experience & Education</h2>
+          <p> My previous jobs & my qualificications</p>
+        </div>
+
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -94,7 +98,7 @@ export default class WorkExperience extends Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="November 2012"
+            date="1992"
             iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             icon={<SchoolIcon />}
           >
@@ -107,7 +111,7 @@ export default class WorkExperience extends Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="2002 - 2006"
+            date="1988"
             iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             icon={<SchoolIcon />}
           >

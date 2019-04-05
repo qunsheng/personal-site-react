@@ -4,7 +4,7 @@ import BubbleChart from "./bubbleChart/BubbleChart";
 class SkillSet extends Component {
   render() {
     return (
-      <div className="App">
+      <section id="section-a">
         <h1 className="App-intro">Technical Skills</h1>
         <BubbleChart
           width={800}
@@ -54,7 +54,7 @@ class SkillSet extends Component {
             }
           ]}
         />
-      </div>
+      </section>
     );
   }
 }
