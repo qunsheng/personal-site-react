@@ -9,7 +9,7 @@ h2,
 h3,
 h4 {
   margin: 0;
-  padding: 1em 0;
+  padding: 1em 0 0 0;
 }
 
 p {
@@ -35,9 +35,9 @@ p {
 
 /* Header Showcase */
 #showcase {
-  min-height: 600px;
   color: #ffffff;
   text-align: center;
+  min-height: 100vh;
 }
 
 #showcase .bg-image {
@@ -50,6 +50,7 @@ p {
   height: 600px;
   z-index: -1;
   opacity: 0.2;
+  height: 100vh;
 }
 
 #showcase .content-wrap {
@@ -148,8 +149,29 @@ h4 {
   height: 100px;
 }
 
+.showcase-box {
+  margin: 5px;
+  padding: 50px;
+}
+
 /* Media Queries */
 @media (min-width: 700px) {
+  .showcase-container {
+    display: flex; /* establish flex container */
+    flex-direction: column; /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center; /* center items horizontally, in this case */
+  }
+
+  .showcase-box {
+    text-align: center; /* will center text in <p>, which is not a flex item */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    align-content: space-around;
+    justify-content: space-between;
+  }
+
   #showcase ul {
     display: flex;
     justify-content: space-around;
