@@ -26,7 +26,7 @@ export default class WorkExperience extends Component {
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-              Front End Developer, 6/2014 – present
+              Front End Developer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Morgan Stanley, New York, NY (Contractor)
@@ -43,7 +43,7 @@ export default class WorkExperience extends Component {
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-              Architect/Front End Developer, 3/2014 – 6/201
+              Architect/Front End Developer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Door 3 Business Applications Inc., New York, NY (Contractor)
@@ -59,9 +59,7 @@ export default class WorkExperience extends Component {
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">
-              Consultant, 8/2013 - 1/2014
-            </h3>
+            <h3 className="vertical-timeline-element-title">Consultant</h3>
             <h4 className="vertical-timeline-element-subtitle">
               Department of Sanitation, New York, NY (Contractor)
             </h4>
@@ -74,7 +72,7 @@ export default class WorkExperience extends Component {
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-              Front End Developer, 5/2012 - 7/2013
+              Front End Developer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Bank of New York Mellon, Jersey City, NJ (Contractor)
@@ -93,7 +91,7 @@ export default class WorkExperience extends Component {
               Certificate of Brokerage Operations
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              New York Institute of Finance, New York, 1995
+              New York Institute of Finance, New York
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -106,7 +104,7 @@ export default class WorkExperience extends Component {
               M.E. Mechanical Engineering
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Florida Atlantic University, Boca Raton, FL, 1992
+              Florida Atlantic University, Boca Raton, FL
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -119,7 +117,7 @@ export default class WorkExperience extends Component {
               Masters of Production Engineering
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Dalian Railway University, Dalian, China, 1988
+              Dalian Railway University, Dalian, China
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement

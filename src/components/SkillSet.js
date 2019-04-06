@@ -2,41 +2,60 @@ import React, { Component } from "react";
 import BubbleChart from "./bubbleChart/BubbleChart";
 
 class SkillSet extends Component {
+  state = {
+    width: 600,
+    height: 600
+  };
+
+  handleWindowResize = () => {
+    let width = Math.min(window.innerWidth - 20, 600);
+    let height = Math.min(width, 600);
+    this.setState({
+      width: width,
+      height: height
+    });
+  };
+
+  componentDidMount() {
+    this.handleWindowResize();
+    window.addEventListener("resize", this.handleWindowResize);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.handleWindowResize);
+  }
+
   render() {
     return (
       <section id="section-a">
-        <h1 className="App-intro">Technical Skills</h1>
+        <h1>Technical Skills</h1>
+        <p>I can say i’m quite good at</p>
         <BubbleChart
-          width={800}
-          height={800}
+          width={this.state.width}
+          height={this.state.height}
           fontFamily="Arial"
           data={[
             {
               label: "Java",
-              value: 5
+              value: 3
             },
             {
-              label: "HTML/HTML5",
+              label: "HTML / HTML5",
               value: 5
             },
             {
               label: "Angular",
-              value: 6
+              value: 8
             },
 
             {
               label: "React",
-              value: 3
+              value: 8
             },
 
             {
-              label: "Highcharts/D3",
-              value: 4
-            },
-
-            {
-              label: "JQuery",
-              value: 5
+              label: "D3 / Highcharts",
+              value: 6
             },
 
             {
@@ -45,12 +64,12 @@ class SkillSet extends Component {
             },
 
             {
-              label: "Sybase/Oracle",
+              label: "Sybase / Oracle",
               value: 5
             },
             {
               label: "Git",
-              value: 5
+              value: 3
             }
           ]}
         />
