@@ -40,8 +40,8 @@ class SkillSet extends Component {
               value: 3
             },
             {
-              label: "HTML / HTML5",
-              value: 5
+              label: "HTML5",
+              value: 3
             },
             {
               label: "Angular",
@@ -55,7 +55,7 @@ class SkillSet extends Component {
 
             {
               label: "D3 / Highcharts",
-              value: 6
+              value: 5
             },
 
             {
@@ -65,7 +65,7 @@ class SkillSet extends Component {
 
             {
               label: "Sybase / Oracle",
-              value: 5
+              value: 4
             },
             {
               label: "Git",

@@ -108,19 +108,6 @@ export default class WorkExperience extends Component {
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="1988"
-            iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-            icon={<SchoolIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Masters of Production Engineering
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Dalian Railway University, Dalian, China
-            </h4>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
             iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
             icon={<StarIcon />}
           />
