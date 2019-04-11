@@ -65,6 +65,7 @@ export default class WorkExperience extends Component {
             </h4>
             <p>System improvement analysis, System security risk analysis</p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="5/2012 - 7/2013"
@@ -81,6 +82,168 @@ export default class WorkExperience extends Component {
               JavaScript and CSS code upgrade latest version and firm standard
             </p>
           </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="8/2010-12/2011 "
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">Consultant</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Rogers, Brampton, Ontario (Contractor)
+            </h4>
+            <p>
+              Designed and implemented Price Plan Consumer Self Service web page
+              using JQuery
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="11/2009-8/2010"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Front End Developer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              AMDOCS, Toronto, Ontario (Contractor)
+            </h4>
+            <p>
+              Designed and implemented Price Plan Consumer Self Service web page
+              using JQuery
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="12/2008-5/2009"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Application Consultant
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              CIBC World Market, Toronto, Ontario (Employee)
+            </h4>
+            <p>Improved and supported CIBC Work Market Stock Loan System</p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="11/2007-10/2008"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">Consultant</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Goldman Sachs, New York, NY (Contractor)
+            </h4>
+            <p>Test Driven Web Based High Performance Risk System Framework</p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="06/2005-09/2007"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">Consultant</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Citigroup, New York, NY (Contractor)
+            </h4>
+            <p>
+              Implemented a gateway system connect Reuters RTFX online FX
+              trading system and Citigroups internal trading system
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="07/2004-05/2005"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">Consultant</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Merrill Lynch, NY (Contractor)
+            </h4>
+            <p>
+              Merrill Lynch automatic stock trading system.design and
+              implementation
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="05/2001-04/2004"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">Consultant</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              RBC Capital Markets, Toronto, Ontario (Employee)
+            </h4>
+            <p>
+              Lead designer, implementer and supporter of an email based order
+              entry system
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="01/2001-04/2001"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Sr. Software Developer/Architect
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Nubase Technologies Inc., Toronto, Ontario (Employee)
+            </h4>
+            <p>
+              Lead designer, implementer and supporter of an email based order
+              entry system
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="08/1999-12/2000"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Sr. Software Developer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Blockade System Corporation, Toronto, Ontario (Employee)
+            </h4>
+            <p>
+              Design and implemented both web based and voice based password
+              reset system
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="02/1996-07/1999"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              System Analyst/ Developer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Automated Securities Clearance Ltd., Weehawken, NJ (Employee)
+            </h4>
+            <p>Original author of BRASS Network System (BNET)</p>
+          </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             date="1995"
