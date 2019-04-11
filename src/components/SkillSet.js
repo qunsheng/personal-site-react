@@ -39,39 +39,47 @@ class SkillSet extends Component {
           data={[
             {
               label: "Java",
+              sublabel: "10+ Years",
               value: 3
             },
             {
-              label: "HTML5",
+              label: "HTML",
+              sublabel: "10+ Years",
               value: 3
             },
             {
-              label: "Angular",
+              label: "Angular / React",
+              sublabel: "6 Years",
               value: 8
             },
 
             {
-              label: "React",
-              value: 8
+              label: "Git",
+              sublabel: "6 Years",
+              value: 4
             },
 
             {
               label: "D3 / Highcharts",
+              sublabel: "6 Years",
               value: 5
             },
 
             {
               label: "Restful Web Service",
+              sublabel: "8 Years",
               value: 5
             },
 
             {
               label: "Sybase / Oracle",
+              sublabel: "10+ Years",
               value: 4
             },
             {
-              label: "Git",
-              value: 3
+              label: "JavaScript",
+              sublabel: "10+ Years",
+              value: 9
             }
           ]}
         />

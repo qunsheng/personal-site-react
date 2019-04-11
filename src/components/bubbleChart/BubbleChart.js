@@ -140,29 +140,29 @@ export default class BubbleChart extends Component {
         return "#" + d.id;
       });
 
-    // node
-    //   .append("text")
-    //   .attr("class", "value-text")
-    //   .style("font-size", `${valueFont.size}px`)
-    //   .attr("clip-path", function(d) {
-    //     return "url(#clip-" + d.id + ")";
-    //   })
-    //   .style("font-weight", d => {
-    //     return valueFont.weight ? valueFont.weight : 600;
-    //   })
-    //   .style("font-family", valueFont.family)
-    //   .style("fill", () => {
-    //     return valueFont.color ? valueFont.color : "#000";
-    //   })
-    //   .style("stroke", () => {
-    //     return valueFont.lineColor ? valueFont.lineColor : "#000";
-    //   })
-    //   .style("stroke-width", () => {
-    //     return valueFont.lineWeight ? valueFont.lineWeight : 0;
-    //   })
-    //   .text(function(d) {
-    //     return d.value;
-    //   });
+    node
+      .append("text")
+      .attr("class", "value-text")
+      .style("font-size", `${valueFont.size}px`)
+      .attr("clip-path", function(d) {
+        return "url(#clip-" + d.id + ")";
+      })
+      .style("font-weight", d => {
+        return valueFont.weight ? valueFont.weight : 600;
+      })
+      .style("font-family", valueFont.family)
+      .style("fill", () => {
+        return valueFont.color ? valueFont.color : "#000";
+      })
+      .style("stroke", () => {
+        return valueFont.lineColor ? valueFont.lineColor : "#000";
+      })
+      .style("stroke-width", () => {
+        return valueFont.lineWeight ? valueFont.lineWeight : 0;
+      })
+      .text(function(d) {
+        return d.label;
+      });
 
     node
       .append("text")
@@ -185,7 +185,7 @@ export default class BubbleChart extends Component {
         return labelFont.lineWeight ? labelFont.lineWeight : 0;
       })
       .text(function(d) {
-        return d.label;
+        return d.data.sublabel;
       });
 
     // Center the texts inside the circles.
