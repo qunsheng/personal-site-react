@@ -11,7 +11,7 @@ class App extends Component {
           <div className="bg-image" />
           <div className="showcase-box" id="bluebox">
             <div className="showcase-sub-box">
-              <img src={require("./images/qunsheng.jpeg")} alt=" " />
+              <img src={require("./images/qunsheng.jpeg")} alt="Quentin Chen" />
             </div>
             <div className="showcase-sub-box">
               <h1> Quentin Chen</h1>
