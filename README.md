@@ -17,7 +17,6 @@ Responsive Web Page<br>
 
 `npm install d3`<br />
 `npm install @material-ui/icons` <br/>
-`npm install @material-ui/icons` <br/>
 `npm install react-visibility-sensor`<br/>
 `npm install prop-types`<br/>
 `npm install classnames`
