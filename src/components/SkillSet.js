@@ -43,14 +43,14 @@ class SkillSet extends Component {
               value: 3
             },
             {
-              label: "UX Design",
-              sublabel: "Figma",
-              value: 3
+              label: "React",
+              sublabel: "3 Years",
+              value: 8
             },
             {
-              label: "Angular / React",
+              label: "Angular",
               sublabel: "6 Years",
-              value: 8
+              value: 3
             },
 
             {
