@@ -10,7 +10,7 @@ class SkillSet extends Component {
   handleWindowResize = () => {
     let width = Math.min(window.innerWidth - 20, 600);
     let height = Math.min(width, 600);
-    if (width != this.state.width) {
+    if (width !== this.state.width) {
       this.setState({
         width: width,
         height: height
