@@ -21,12 +21,43 @@ export default class WorkExperience extends Component {
         <VerticalTimeline> 
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            date="4/2021 – 5/2021"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}>
+            <h3 className="vertical-timeline-element-title">
+            Full Stack Web Developer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+            Mirador LLC, New York, NY (Contractor)
+            </h4>
+            <p>
+            Implemented backend endpoints using NodeJS, Express, TypeScript, Okta, and CosmicJS.
+            </p>
+            <div class="tech-section">
+              <div class="tech-div">
+                <span class="tech-span"> React/Gatsby</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Node</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Express</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Okta</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> CosmicJS</span>
+              </div>
+            </div>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             date="9/2019 – 2/2021"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            icon={<WorkIcon />}
-          >
+            icon={<WorkIcon />}>
             <h3 className="vertical-timeline-element-title">
-            Full Stack Web Develope
+            Full Stack Web Developer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
             Bank of America, New York, NY (Contractor)
@@ -53,7 +84,7 @@ export default class WorkExperience extends Component {
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-            Full Stack Web Develope
+            Full Stack Web Developer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Morgan Stanley, New York, NY (Contractor)
