@@ -17,8 +17,33 @@ export default class WorkExperience extends Component {
           <h2>Work experience & Education</h2>
           <p> My previous jobs & my qualificications</p>
         </div>
-
         <VerticalTimeline> 
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="6/2021 – present"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}>
+            <h3 className="vertical-timeline-element-title">
+            Full Stack Web Developer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+            Bank of America, Jersey City, NJ (Contractor)
+            </h4>
+            <p>
+              ReactJs/Express web application enhancement.
+            </p>
+            <div class="tech-section">
+              <div class="tech-div">
+                <span class="tech-span"> React</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Node</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Express</span>
+              </div>
+            </div>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="9/2019 – 2/2021"
