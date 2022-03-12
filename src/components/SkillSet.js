@@ -60,9 +60,9 @@ class SkillSet extends Component {
             },
 
             {
-              label: "D3 / Highcharts",
+              label: "D3 / Highcharts / Vega",
               sublabel: "6 Years",
-              value: 5
+              value: 6
             },
 
             {
@@ -79,7 +79,7 @@ class SkillSet extends Component {
             {
               label: "JavaScript",
               sublabel: "10+ Years",
-              value: 9
+              value: 7
             }
           ]}
         />

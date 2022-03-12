@@ -37,10 +37,13 @@ export default class WorkExperience extends Component {
                 <span class="tech-span"> React</span>
               </div>
               <div class="tech-div">
-                <span class="tech-span"> Node</span>
+                <span class="tech-span"> Express</span>
               </div>
               <div class="tech-div">
-                <span class="tech-span"> Express</span>
+                <span class="tech-span"> Vega</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Restful Web Service</span>
               </div>
             </div>
         </VerticalTimelineElement>
@@ -56,17 +59,20 @@ export default class WorkExperience extends Component {
             Bank of America, New York, NY (Contractor)
             </h4>
             <p>
-              Implemented a ReactJs/Express web application from scratch.
+              ReactJs/Express web application implementation from scratch.
             </p>
             <div class="tech-section">
               <div class="tech-div">
                 <span class="tech-span"> React</span>
               </div>
               <div class="tech-div">
-                <span class="tech-span"> Node</span>
+                <span class="tech-span"> Express</span>
               </div>
               <div class="tech-div">
-                <span class="tech-span"> Express</span>
+                <span class="tech-span"> D3</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Restful Web Service</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -90,16 +96,14 @@ export default class WorkExperience extends Component {
               <div class="tech-div">
                 <span class="tech-span"> Angular</span>
               </div>
-
               <div class="tech-div">
-                <span class="tech-span"> React</span>
+                <span class="tech-span"> Restful Web Service</span>
               </div>
-
               <div class="tech-div">
                 <span class="tech-span"> Java</span>
               </div>
               <div class="tech-div">
-                <span class="tech-span"> Spring</span>
+                <span class="tech-span"> Highcharts</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -123,6 +127,9 @@ export default class WorkExperience extends Component {
               <div class="tech-div">
                 <span class="tech-span"> Angular</span>
               </div>
+              <div class="tech-div">
+                <span class="tech-span"> Restful Web Service</span>
+              </div>
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -140,6 +147,9 @@ export default class WorkExperience extends Component {
             <div class="tech-section">
               <div class="tech-div">
                 <span class="tech-span"> Java</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Web Security</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -162,6 +172,9 @@ export default class WorkExperience extends Component {
             <div class="tech-section">
               <div class="tech-div">
                 <span class="tech-span"> DOJO</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Restful Web Service</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -186,6 +199,12 @@ export default class WorkExperience extends Component {
               </div>
               <div class="tech-div">
                 <span class="tech-span"> Java</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Web Service</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Test Driven Programming</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -212,6 +231,12 @@ export default class WorkExperience extends Component {
               </div>
               <div class="tech-div">
                 <span class="tech-span"> Java</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Web Service</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Test Driven Programming</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -254,6 +279,12 @@ export default class WorkExperience extends Component {
               <div class="tech-div">
                 <span class="tech-span"> Java</span>
               </div>
+              <div class="tech-div">
+                <span class="tech-span"> JavaScript</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Test Driven Programming</span>
+              </div>
             </div>
           </VerticalTimelineElement>
 
@@ -275,6 +306,9 @@ export default class WorkExperience extends Component {
               <div class="tech-div">
                 <span class="tech-span"> Java</span>
               </div>
+              <div class="tech-div">
+                <span class="tech-span"> Oracle</span>
+              </div>
             </div>
           </VerticalTimelineElement>
 
@@ -295,6 +329,9 @@ export default class WorkExperience extends Component {
             <div class="tech-section">
               <div class="tech-div">
                 <span class="tech-span"> Java</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> JavaScript</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -320,6 +357,9 @@ export default class WorkExperience extends Component {
               <div class="tech-div">
                 <span class="tech-span"> Java</span>
               </div>
+              <div class="tech-div">
+                <span class="tech-span"> Oracle</span>
+              </div>
             </div>
           </VerticalTimelineElement>
 
@@ -342,6 +382,9 @@ export default class WorkExperience extends Component {
             <div class="tech-section">
               <div class="tech-div">
                 <span class="tech-span"> Java</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Oracle</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -369,12 +412,41 @@ export default class WorkExperience extends Component {
               <div class="tech-div">
                 <span class="tech-span"> Java</span>
               </div>
+              <div class="tech-div">
+                <span class="tech-span"> Oracle</span>
+              </div>
             </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="02/1996-07/1999"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+            Manager of OTC Trading System
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+            Knight Securities Inc., Jersey City, NJ (Employee)  
+            </h4>
+            <p>Hands-on manager of OTC trading systems design, develop, and operation.</p>
+            <div class="tech-section">
+              <div class="tech-div">
+                <span class="tech-span"> C++</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Sybase</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> UNIX</span>
+              </div>
+            </div>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="12/1992-01/1996"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
           >
@@ -388,6 +460,12 @@ export default class WorkExperience extends Component {
             <div class="tech-section">
               <div class="tech-div">
                 <span class="tech-span"> C++</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> Sybase</span>
+              </div>
+              <div class="tech-div">
+                <span class="tech-span"> UNIX</span>
               </div>
             </div>
           </VerticalTimelineElement>
