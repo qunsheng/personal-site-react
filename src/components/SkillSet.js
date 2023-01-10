@@ -38,13 +38,13 @@ class SkillSet extends Component {
           fontFamily="Arial"
           data={[
             {
-              label: "NodeJS / Express",
-              sublabel: "4 Years",
+              label: "Express",
+              sublabel: "6 Years",
               value: 4
             },
             {
               label: "React",
-              sublabel: "4 Years",
+              sublabel: "5 Years",
               value: 8
             },
             {
@@ -52,13 +52,11 @@ class SkillSet extends Component {
               sublabel: "6 Years",
               value: 3
             },
-
             {
               label: "Git",
-              sublabel: "6 Years",
+              sublabel: "8 Years",
               value: 3
             },
-
             {
               label: "D3 / Highcharts / Vega",
               sublabel: "6 Years",

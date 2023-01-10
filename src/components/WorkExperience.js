@@ -20,7 +20,7 @@ export default class WorkExperience extends Component {
         <VerticalTimeline> 
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="6/2021 – present"
+            date="6/2021 – 12/2022"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}>
             <h3 className="vertical-timeline-element-title">
@@ -32,18 +32,18 @@ export default class WorkExperience extends Component {
             <p>
               ReactJs/Express web application enhancement.
             </p>
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> React</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> React</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Express</span>
+              <div className="tech-div">
+                <span className="tech-span"> Express</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Vega</span>
+              <div className="tech-div">
+                <span className="tech-span"> Vega</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Restful Web Service</span>
+              <div className="tech-div">
+                <span className="tech-span"> Restful Web Service</span>
               </div>
             </div>
         </VerticalTimelineElement>
@@ -61,18 +61,18 @@ export default class WorkExperience extends Component {
             <p>
               ReactJs/Express web application implementation from scratch.
             </p>
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> React</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> React</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Express</span>
+              <div className="tech-div">
+                <span className="tech-span"> Express</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> D3</span>
+              <div className="tech-div">
+                <span className="tech-span"> D3</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Restful Web Service</span>
+              <div className="tech-div">
+                <span className="tech-span"> Restful Web Service</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -92,18 +92,18 @@ export default class WorkExperience extends Component {
               Implemented Angular2+/Restful web application from both server and
               client side.
             </p>
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> Angular</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> Angular</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Restful Web Service</span>
+              <div className="tech-div">
+                <span className="tech-span"> Restful Web Service</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Java</span>
+              <div className="tech-div">
+                <span className="tech-span"> Java</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Highcharts</span>
+              <div className="tech-div">
+                <span className="tech-span"> Highcharts</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -123,12 +123,12 @@ export default class WorkExperience extends Component {
               Implemented Aether Store Dashboard Application client side using
               AngularJS and Restful API.
             </p>
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> Angular</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> Angular</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Restful Web Service</span>
+              <div className="tech-div">
+                <span className="tech-span"> Restful Web Service</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -144,12 +144,12 @@ export default class WorkExperience extends Component {
             </h4>
             <p>System improvement analysis, System security risk analysis</p>
 
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> Java</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> Java</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Web Security</span>
+              <div className="tech-div">
+                <span className="tech-span"> Web Security</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -169,12 +169,12 @@ export default class WorkExperience extends Component {
             <p>
               JavaScript and CSS code upgrade latest version and firm standard
             </p>
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> DOJO</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> DOJO</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Restful Web Service</span>
+              <div className="tech-div">
+                <span className="tech-span"> Restful Web Service</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -193,18 +193,18 @@ export default class WorkExperience extends Component {
               Designed and implemented Price Plan Consumer Self Service web page
               using JQuery
             </p>
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> jQuery</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> jQuery</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Java</span>
+              <div className="tech-div">
+                <span className="tech-span"> Java</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Web Service</span>
+              <div className="tech-div">
+                <span className="tech-span"> Web Service</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Test Driven Programming</span>
+              <div className="tech-div">
+                <span className="tech-span"> Test Driven Programming</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -225,18 +225,18 @@ export default class WorkExperience extends Component {
               Designed and implemented Price Plan Consumer Self Service web page
               using JQuery
             </p>
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> jQuery</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> jQuery</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Java</span>
+              <div className="tech-div">
+                <span className="tech-span"> Java</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Web Service</span>
+              <div className="tech-div">
+                <span className="tech-span"> Web Service</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Test Driven Programming</span>
+              <div className="tech-div">
+                <span className="tech-span"> Test Driven Programming</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -254,12 +254,12 @@ export default class WorkExperience extends Component {
               CIBC World Market, Toronto, Ontario (Employee)
             </h4>
             <p>Improved and supported CIBC Work Market Stock Loan System</p>
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> Smart Client</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> Smart Client</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Java</span>
+              <div className="tech-div">
+                <span className="tech-span"> Java</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -275,15 +275,15 @@ export default class WorkExperience extends Component {
               Goldman Sachs, New York, NY (Contractor)
             </h4>
             <p>Test Driven Web Based High Performance Risk System Framework</p>
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> Java</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> Java</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> JavaScript</span>
+              <div className="tech-div">
+                <span className="tech-span"> JavaScript</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Test Driven Programming</span>
+              <div className="tech-div">
+                <span className="tech-span"> Test Driven Programming</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -302,12 +302,12 @@ export default class WorkExperience extends Component {
               Implemented a gateway system connect Reuters RTFX online FX
               trading system and Citigroups internal trading system
             </p>
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> Java</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> Java</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Oracle</span>
+              <div className="tech-div">
+                <span className="tech-span"> Oracle</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -326,12 +326,12 @@ export default class WorkExperience extends Component {
               Merrill Lynch automatic stock trading system.design and
               implementation
             </p>
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> Java</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> Java</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> JavaScript</span>
+              <div className="tech-div">
+                <span className="tech-span"> JavaScript</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -350,15 +350,15 @@ export default class WorkExperience extends Component {
               Lead designer, implementer and supporter of an email based order
               entry system
             </p>
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> C++</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> C++</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Java</span>
+              <div className="tech-div">
+                <span className="tech-span"> Java</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Oracle</span>
+              <div className="tech-div">
+                <span className="tech-span"> Oracle</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -379,12 +379,12 @@ export default class WorkExperience extends Component {
               Lead designer, implementer and supporter of an email based order
               entry system
             </p>
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> Java</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> Java</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Oracle</span>
+              <div className="tech-div">
+                <span className="tech-span"> Oracle</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -405,15 +405,15 @@ export default class WorkExperience extends Component {
               Design and implemented both web based and voice based password
               reset system
             </p>
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> C++</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> C++</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Java</span>
+              <div className="tech-div">
+                <span className="tech-span"> Java</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Oracle</span>
+              <div className="tech-div">
+                <span className="tech-span"> Oracle</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -431,15 +431,15 @@ export default class WorkExperience extends Component {
             Knight Securities Inc., Jersey City, NJ (Employee)  
             </h4>
             <p>Hands-on manager of OTC trading systems design, develop, and operation.</p>
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> C++</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> C++</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Sybase</span>
+              <div className="tech-div">
+                <span className="tech-span"> Sybase</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> UNIX</span>
+              <div className="tech-div">
+                <span className="tech-span"> UNIX</span>
               </div>
             </div>
           </VerticalTimelineElement>
@@ -457,15 +457,15 @@ export default class WorkExperience extends Component {
               Automated Securities Clearance Ltd., Weehawken, NJ (Employee)
             </h4>
             <p>Original author of BRASS Network System (BNET)</p>
-            <div class="tech-section">
-              <div class="tech-div">
-                <span class="tech-span"> C++</span>
+            <div className="tech-section">
+              <div className="tech-div">
+                <span className="tech-span"> C++</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> Sybase</span>
+              <div className="tech-div">
+                <span className="tech-span"> Sybase</span>
               </div>
-              <div class="tech-div">
-                <span class="tech-span"> UNIX</span>
+              <div className="tech-div">
+                <span className="tech-span"> UNIX</span>
               </div>
             </div>
           </VerticalTimelineElement>
